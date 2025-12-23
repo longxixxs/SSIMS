@@ -63,6 +63,7 @@ DATABASES = {
 ```python
 AI_API_KEY = "大模型 API"
 AI_BASE_URL = "AI大模型调用接口"
+AI_MODEL = "你的模型"
 ```
 
 ### 5️⃣ 数据库迁移
@@ -142,3 +143,4 @@ AI 查询助手：/chat/
 作者：晓小事 LxXxs Longxixxs
 联系方式：lxxxs@foxmail.com
 用途：课程设计 / 学习交流
+
