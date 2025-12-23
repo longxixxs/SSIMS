@@ -102,7 +102,7 @@ LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/login/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-AI_API_KEY = "sk-f602ba090f2a40a0ab6df18150f03b2c"
+AI_API_KEY = "your api "
 AI_BASE_URL = "https://api.deepseek.com"
 
 
