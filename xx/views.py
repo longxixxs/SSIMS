@@ -1115,14 +1115,11 @@ result = list(student.objects.values('classno__classname').annotate(count=Count(
 def get_ai_response(messages):
     url = f"{settings.AI_BASE_URL}/v1/chat/completions"
     headers = {
-        "Authorization":settings.AI_API_KEY,
         "Content-Type": "application/json"
     }
     payload = {
-        "model": settings.AI_MODEL,
         "messages": messages
     }
-
     try:
         response = requests.post(url, headers=headers, json=payload, )
         data = response.json()
